@@ -1,4 +1,4 @@
-// 				Creational Design Patterns - Singleton Pattern - Cache Manager                        
+// 				Creational Design Patterns - Singleton Pattern - Cache Manager System                        
 
 package CreationalDesignPatterns;
 
@@ -49,7 +49,7 @@ class SimpleCache {
 }
 
 //Main class to demonstrate SimpleCache usage
-public class CacheManager {
+public class CacheManagerSystem {
  public static void main(String[] args) {
      SimpleCache cacheManager = SimpleCache.getInstance();
      Scanner scanner = new Scanner(System.in);
